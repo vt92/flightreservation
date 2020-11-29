@@ -12,7 +12,7 @@ role_id int,
 foreign key (user_id)
 references user(id),
 foreign key (role_id)
-references role(id),
+references role(id)
 )
 
 insert into role values(1,'ADMIN')
